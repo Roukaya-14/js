@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Register Form</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+
+    <body>
+        <div class="calculator-container">
+            <div class="calculator-header">
+                <div class="title">calc</div>
+                <div class="theme-toggle">
+                    <span>THEME</span>
+                    <div class="toggle-buttons">
+                        <span>1</span><span>2</span>
+                        <input type="checkbox" id="theme-toggle" onclick="toggleTheme()">
+                        <label for="theme-toggle"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator">
+                <div class="display">
+                    <div type="text" id="result">0</div>
+                </div>
+                <div class="buttons">
+                    <button class="number">7</button>
+                    <button class="number">8</button>
+                    <button class="number">9</button>
+                    <button class="delete">DEL</button>
+                    <button class="number"> 4</button>
+                    <button class="number">5</button>
+                    <button class="number">6</button>
+                    <button class="operator">+</button>
+                    <button class="number">1</button>
+                    <button class="number">2</button>
+                    <button class="number">3</button>
+                    <button class="operator">-</button>
+                    <button>.</button>
+                    <button>0</button>
+                    <button class="operator">/</button>
+                    <button class="operator">*</button>
+                    <button class="reset">RESET</button>
+                    <button class="equal">=</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+
+</html>
